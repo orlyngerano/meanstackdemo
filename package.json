@@ -1,0 +1,19 @@
+{
+  "name": "usermanagement",
+  "version": "1.0.0",
+  "description": "user crud sample app using mean stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Orlyn Anthony Gerano",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.8",
+    "pug": "^2.0.0-beta6"
+  }
+}

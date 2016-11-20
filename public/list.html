@@ -1,0 +1,20 @@
+        <div class="row">
+            <div class="col-sm-6"><h2>List</h2></div>
+            <div class="col-sm-6">
+                <a ui-sref="add" class="btn btn-primary pull-right">New User</a>
+            </div>
+        </div>  
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Username</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="user in users">
+                    <td><a ui-sref="edit({ id: user._id })">{{user.name}}</a></td>
+                    <td>{{user.username}}</td>
+                </tr>
+            </tbody>
+        </table>
